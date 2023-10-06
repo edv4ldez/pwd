@@ -27,7 +27,8 @@
 }
 
 .alerts {
-  margin: 0;
+  position: relative;
+  width: 100%;
 }
 
 .alert {
@@ -36,9 +37,7 @@
   font-weight: bold;
   text-align: center;
   font-size: 25px;
-  position: relative;
-  top: 21px;
-  left: 2px;
+  margin: 0;
 }
 
 .alert2 {
@@ -47,7 +46,33 @@
   font-weight: bold;
   text-align: center;
   font-size: 25px;
+  margin: 0;
   position: relative;
-  bottom: 35px;
-  left: 5px;
+  bottom: 28px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+}
+
+.under {
+  font-family: "Lilita One", sans-serif;
+  color: rgb(240, 96, 96);
+  font-weight: bolder;
+  text-align: center;
+  font-size: 20px;
+  margin: 0;
+}
+
+.below {
+  font-family: "Lilita One", sans-serif;
+  color: rgb(0, 75, 128);
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+  margin: 0;
+  position: relative;
+  bottom: 24px;
 }

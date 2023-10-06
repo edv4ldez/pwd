@@ -24,12 +24,12 @@ const Input = ({
     }
     setTimeout(() => {
       setIsCopied(false);
-    }, 5000);
+    }, 1000);
   };
 
   const handleOnClick = (event: React.MouseEvent<HTMLButtonElement>) => {
     event.preventDefault();
-    setPassword(String(generatePassword(12, true, true, true)));
+    setPassword(String(generatePassword(32, true, true, true)));
   };
 
   return (
