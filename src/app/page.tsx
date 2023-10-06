@@ -10,7 +10,7 @@ export default function Home() {
     <main className={styles.main}>
       <section className={styles.form}>
         <h1 className={styles.title}>Agent P</h1>
-        <p className={styles.text}>Passwords Generator</p>
+        <p className={styles.text}>Password Generator</p>
         <img className={styles.image} src="./assets/img/perry.gif" />
         {isCopied && (
           <div className={styles.alerts}>
