@@ -8,7 +8,7 @@ const Input = ({
 }: {
   setIsCopied: React.Dispatch<React.SetStateAction<boolean>>;
 }) => {
-  const [password, setPassword] = useState("");
+  const [password, setPassword] = useState("s3cur5P@55w0rd");
 
   const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setPassword(event.target.value);
@@ -39,7 +39,6 @@ const Input = ({
           className={styles.input}
           type="text"
           onChange={handleChange}
-          placeholder="Enter a password"
           value={"  " + password}
           readOnly
         />
