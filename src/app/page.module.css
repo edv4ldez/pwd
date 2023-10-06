@@ -34,10 +34,12 @@
 .alert {
   font-family: "Lilita One", sans-serif;
   color: rgb(240, 96, 96);
-  font-weight: bold;
+  font-weight: bolder;
   text-align: center;
   font-size: 25px;
   margin: 0;
+  position: relative;
+  top: 15px;
 }
 
 .alert2 {
@@ -48,7 +50,7 @@
   font-size: 25px;
   margin: 0;
   position: relative;
-  bottom: 28px;
+  bottom: 16px;
 }
 
 .footer {
